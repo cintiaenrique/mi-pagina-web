@@ -249,3 +249,136 @@ a.footer:active {
     text-decoration: none;
     color: var(--color-negro);
 }
+
+/* Catálogo */
+.catalogo table {
+    margin: 0 auto;
+    width: 1250px;
+}
+
+.catalogo img {
+    width: 150px;
+}
+
+.catalogo th, td {
+    padding: 16px;
+}
+
+.catalogo th {
+    background-color: var(--color-acento);
+}
+
+.catalogo td {
+    background-color: var(--color-marron-100);
+}
+
+.catalogo tr:nth-child(odd) td {
+    background-color: var(--color-marron-200);
+}
+
+.catalogo tr:hover td {
+    background-color: var(--color-acento);
+}
+
+/* Sobre Nosotros */
+#sobrenosotros {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-top: 32px;
+}
+
+.direccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.direccion > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.direccion > ul > li {
+    display: inline-block;
+}
+
+#sobrenosotros video {
+    width: 65%;
+    height: auto;
+}
+
+#sobrenosotros p {
+    line-height: 20px;
+}
+
+#sobrenosotros i {
+    font-size: 32px;
+    margin-right: 32px;
+}
+
+#sobrenosotros iframe {
+    display: block;
+    width: 1250px;
+    margin: 32px auto;
+    border: none;
+    height: 600px;
+}
+
+/* Formularios */
+.formulario label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    display: block;
+    width: 450px;
+    margin: 15px auto;
+
+    padding: 10px;
+
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid var(--color-marron-200);
+
+    outline: none;
+}
+
+.formulario input:focus,
+.formulario textarea:focus,
+.formulario select:focus {
+    border-bottom: 2px solid var(--color-acento);
+}
+
+.formulario textarea {
+    height: 200px;
+}
+
+.formulario .opciones {
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+}
+
+.formulario .submit {
+    background-color: var(--color-acento);
+    font-weight: 700;
+    border: none;
+}
+
+#exito {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
